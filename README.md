@@ -17,7 +17,7 @@ Step 3: Change the gameoverlay part of the config.ini to this:
 
 ![image](https://i.ibb.co/ssS0Br1/image-2024-06-23-231559938.png)
 
-(If you are using the no judgement box, then make the overlayURL "http://localhost:24050/no_judgement_box/".)
+(If you are using the no judgement box, then make the overlayURL "http://localhost:24050/no_judgement_box/". Additionally you can also lower overlayheight to a much lower value.)
 
 (also if you are using windowed, adjust the value in overlayScale accordingly)
 
