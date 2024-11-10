@@ -24,6 +24,7 @@ let star_rating = document.getElementById("star_rating");
 let difficulty = document.getElementById("difficulty");
 let map_name = document.getElementById("map_name");
 let mapper = document.getElementById("mapper");
+let skin = document.getElementById("skin");
 
 let state;
 
@@ -70,12 +71,12 @@ socket.onmessage = event => {
         else{
             difficulty.style.left = "100px";
         }
-
+        skin.innerHTML = data.settings.folders.skin;
         star_rating.innerHTML = data.menu.bm.stats.SR.toFixed(2);
-        player.innerHTML = data.gameplay.name
-        difficulty.innerHTML = data.menu.bm.metadata.difficulty
-        map_name.innerHTML = data.menu.bm.metadata.title
-        mapper.innerHTML = "By: " + data.menu.bm.metadata.mapper
+        player.innerHTML = data.gameplay.name;
+        difficulty.innerHTML = data.menu.bm.metadata.difficulty;
+        map_name.innerHTML = data.menu.bm.metadata.title;
+        mapper.innerHTML = "By: " + data.menu.bm.metadata.mapper;
       	
   } catch (err) { console.log(err); };
 };

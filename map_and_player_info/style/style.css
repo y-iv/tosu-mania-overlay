@@ -53,7 +53,8 @@ img{
     position: relative;
     font-family: MPLUSRounded;
     font-size: 20pt;
-    left: 90px;
+    left: 100px;
+    bottom: -7px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -63,6 +64,17 @@ img{
 #star_rating{
     font-size: 40pt;
     font-family: Baloo;
+    color: lightblue;
+}
+
+#skin{
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-family: Baloo;
+    font-size: 15pt;
+    bottom: 40px;
+    left: 103px;
     color: lightblue;
 }
 
@@ -87,9 +99,8 @@ img{
 }
 #difficulty{
     font-family: MPLUSRounded;
-    font-size: 20pt;
+    font-size: 17pt;
     margin-top: 10px;
-    display: block;
     white-space: nowrap;
     position: absolute;
     bottom: 15px;
@@ -102,7 +113,7 @@ img{
     font-family: MPLUSRounded;
     font-size: 20pt;
     color: lightcoral;
-    bottom: 145px;
+    bottom: 170px;
     left: -120px;
 
 }
@@ -113,6 +124,6 @@ img{
     font-family: MPLUSRounded;
     font-size: 15pt;
     color: rgb(253, 179, 179);
-    bottom: 120px;
+    bottom: 150px;
     left: -120px;
 }
