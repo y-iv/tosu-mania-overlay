@@ -72,7 +72,7 @@ socket.onmessage = event => {
             difficulty.style.left = "100px";
         }
         skin.innerHTML = data.settings.folders.skin;
-        star_rating.innerHTML = data.menu.bm.stats.SR.toFixed(2);
+        star_rating.innerHTML = data.menu.bm.stats.fullSR.toFixed(2);
         player.innerHTML = data.gameplay.name;
         difficulty.innerHTML = data.menu.bm.metadata.difficulty;
         map_name.innerHTML = data.menu.bm.metadata.title;

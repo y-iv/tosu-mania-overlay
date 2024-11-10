@@ -54,7 +54,7 @@ img{
     font-family: MPLUSRounded;
     font-size: 20pt;
     left: 100px;
-    bottom: -7px;
+    bottom: -9px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -74,7 +74,7 @@ img{
     font-family: Baloo;
     font-size: 15pt;
     bottom: 40px;
-    left: 103px;
+    left: 100px;
     color: lightblue;
 }
 
